@@ -2,34 +2,33 @@
 
 # WOLPERTINGER
 
-### Your copilot should know what to do.
+### Less menu hunting. More flying.
 
-**A local-first companion for Elite Dangerous — built around the commander's next decision.**
+**A local-first Elite Dangerous companion built around trustworthy game state and the commander's next decision.**
 
-<img src="docs/assets/wolpertinger-concept-ui.webp" alt="WOLPERTINGER concept artwork depicting commander-facing navigation, exploration, engineering and cockpit information" width="100%">
+<img src="docs/assets/wolpertinger-concept-ui.webp" alt="WOLPERTINGER concept artwork for navigation, exploration and engineering" width="100%">
 
-<sub>Concept artwork — not a screenshot of a completed interface.</sub>
+<sub>Concept artwork — not a screenshot of a finished interface.</sub>
 
 </div>
 
-## The Mission
+> **Status: pre-alpha.** The trusted-state foundation is implemented, but the commander-facing application is not ready for general use. **No supported end-user release is available.**
 
-**Less menu hunting. More flying.**
+## Why it exists
 
-Exploration, navigation, materials, engineering and logistics are connected in the life of a commander, but the information needed for each decision is scattered.
+Exploration, navigation, engineering and logistics depend on information scattered across game interfaces. WOLPERTINGER aims to bring relevant context together locally, without making a cloud service or an AI provider the authority for game state.
 
-WOLPERTINGER aims to bring relevant context together without surrendering authoritative game state to a cloud service or an optional AI provider.
+## What's built
 
-**One local foundation. Different missions. The commander stays in control.**
+- **Trusted foundation:** durable journal evidence, deterministic normalization, trusted state, projections and exact replay.
+- **Presentation groundwork:** typed contracts, local transport and presentation state are implemented.
 
-## Where it stands
+**Still in development:** the usable tray, overlay and hub experience, including reconnect and recovery behaviour. Broader gameplay modules are future directions, not shipping features.
 
-**Pre-alpha.** The deterministic journal-processing and trusted-state foundation exists. The commander-facing tray, overlay and hub are still in development. There is **no supported end-user release** yet.
+## Explore
 
-### Explore
-
-[**Project roadmap**](ROADMAP.md) · [**Project website**](https://keilerhirsch.github.io/wolpertinger/) · [**Technical demo releases**](https://github.com/KeilerHirsch/wolpertinger/releases)
+[**Project website**](https://keilerhirschlabs.github.io/wolpertinger/) · [**Roadmap and implementation status**](ROADMAP.md) · [**Technical demo releases**](https://github.com/KeilerHirschLabs/wolpertinger/releases) · [**Issues**](https://github.com/KeilerHirschLabs/wolpertinger/issues)
 
 ---
 
-<sub>Independent community project, not affiliated with Frontier Developments. [EUPL-1.2 licence](LICENSE) · [Third-party notices](NOTICE.md) · [Security](SECURITY.md)</sub>
+<sub>Independent community project, not affiliated with Frontier Developments. [EUPL-1.2 licence](LICENSE) · [Third-party notices](NOTICE.md) · [Security](SECURITY.md).</sub>
